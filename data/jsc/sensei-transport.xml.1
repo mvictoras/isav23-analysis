@@ -1,0 +1,20 @@
+<sensei>
+    <transport type="adios2" engine="sst" filename="/p/project/dems/goebbert1/gridgen/64.16_x100y100z4/info.1" frequency="1" enabled="1" debug_mode="2">
+        <engine_parameters>
+            RegistrationMethod = File
+            OpenTimeoutSecs = 1800
+            RendezvousReaderCount = 0
+            QueueLimit = 1
+            QueueFullPolicy = Discard
+            NetworkInterface = ib0
+            DataTransport = UCX
+            MarshalMethod = BP
+            FirstTimestepPrecious = true
+            AlwaysProvideLatestTimestep = false
+            SpeculativePreloadMode = off
+        </engine_parameters>
+        <mesh name="mesh">
+            <point_arrays>velocity_x, velocity_y, velocity_z, pressure, temperature</point_arrays>
+        </mesh>
+    </transport>
+</sensei>
