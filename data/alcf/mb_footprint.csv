@@ -1,0 +1,8 @@
+ranks,category,MB
+280,catalyst,6.5
+560,catalyst,6.5
+1120,catalyst,6.5
+280,checkpointing,19000
+560,checkpointing,19000
+1120,checkpointing,19000
+
